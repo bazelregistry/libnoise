@@ -1,0 +1,62 @@
+cc_binary(
+    name = "complexplanet",
+    srcs = ["complexplanet.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "texturegranite",
+    srcs = ["texturegranite.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "texturejade",
+    srcs = ["texturejade.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "texturesky",
+    srcs = ["texturesky.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "textureslime",
+    srcs = ["textureslime.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "texturewood",
+    srcs = ["texturewood.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)
+
+cc_binary(
+    name = "worms",
+    srcs = ["worms.cpp"],
+    deps = [
+        "//noise",
+        "//noiseutils",
+    ],
+)

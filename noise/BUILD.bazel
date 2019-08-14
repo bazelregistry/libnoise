@@ -1,0 +1,13 @@
+cc_library(
+    name = "noise",
+    visibility = ["//visibility:public"],
+    strip_include_prefix = "src",
+    include_prefix = "noise",
+    hdrs = glob([
+      "src/**/*.h",
+    ]),
+    srcs = glob([
+        "src/**/*.cpp",
+        "src/**/*.h",
+    ]),
+)

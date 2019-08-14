@@ -1,0 +1,9 @@
+cc_library(
+    name = "noiseutils",
+    visibility = ["//visibility:public"],
+    strip_include_prefix = "/noiseutils",
+    includes = ["./"],
+    srcs = ["noiseutils.cpp"],
+    hdrs = ["noiseutils.h"],
+    deps = ["//noise"],
+)
